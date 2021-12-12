@@ -32,20 +32,45 @@ p {
 }
 
 .logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   border: 4px solid #1423A2;
   border-radius: 50%;
   width: 125px;
   height: 125px;
+  -webkit-transform: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 
 .logo:hover {
   -webkit-transform: rotate(360deg);
-  transform: rotate(360deg)
+  transform: rotate(360deg);
+  cursor: not-allowed;
 }
 
 .bot-icon {
-  width: 250px;
-  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 128px;
+  height: 128px;
+  border: 4px solid #212b9e;
+  border-radius: 50%;
+  -webkit-transform: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+}
+
+/*
+a {
+  
+}
+*/
+
+.bot-icon:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  cursor: not-allowed;
 }
 
 .links {
@@ -54,6 +79,10 @@ p {
 
 .page-link, .staff-member-link {
   color: #193f77;
+}
+
+.bot-name {
+  text-align: center;
 }
 
 .staff-member-name {
