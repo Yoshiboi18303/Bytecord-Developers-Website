@@ -77,8 +77,12 @@ a {
   font-family: "Akronim", cursive;
 }
 
-.page-link, .staff-member-link {
+.page-link {
   color: #193f77;
+  text-align: center;
+}
+
+.staff-member-buttons {
   text-align: center;
 }
 
@@ -128,7 +132,17 @@ p.copyright-info, a.copyright-license-link {
 }
 
 a.copyright-license-link {
-  color: rgb(73, 35, 179);
+  color: #4923b3;
+}
+
+img.staff-member-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 128px;
+  height: 128px;
+  border: 4px solid #136cbe;
+  border-radius: 50%;
 }
 
 /* This is the stylesheet */
