@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 * {
   padding: 0;
@@ -78,6 +79,7 @@ a {
 
 .page-link, .staff-member-link {
   color: #193f77;
+  text-align: center;
 }
 
 .bot-name {
@@ -96,6 +98,35 @@ a {
 
 footer {
   background-color: #141f9162;
+}
+
+.btn {
+  background-color: #2e325f;
+  color: #2c368d;
+  font-size: 15px;
+  transition-duration: 0.5s;
+  padding: 5px;
+  border: 2px solid #3045fd;
+  border-radius: 8px;
+  font-family: "Bakbak One", cursive;
+}
+
+.btn:hover {
+  background-color: #2c368d;
+  color: white;
+  cursor: pointer;
+}
+
+.bot-buttons {
+  text-align: center;
+}
+
+p.copyright-info, a.copyright-license-link {
+  font-family: "Anton", sans-serif;
+}
+
+a.copyright-license-link {
+  color: rgb(73, 35, 179);
 }
 
 /* This is the stylesheet */
