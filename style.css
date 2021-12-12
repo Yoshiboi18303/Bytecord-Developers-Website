@@ -61,11 +61,10 @@ p {
   transition: transform 0.8s ease-in-out;
 }
 
-/*
 a {
-  
+  font-family: "Varela Round", sans-serif;
+  margin: 2px;
 }
-*/
 
 .bot-icon:hover {
   -webkit-transform: rotate(360deg);
@@ -93,6 +92,10 @@ a {
 .staff-member-description {
   text-align: center;
   color: #1a55ad;
+}
+
+footer {
+  background-color: #141f9162;
 }
 
 /* This is the stylesheet */
