@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
 
 * {
   padding: 0;
@@ -14,10 +15,14 @@ body {
 
 h1 {
   font-family: 'Akronim', cursive;
+  text-align: center;
+  color: #3644db;
 }
 
 p {
   font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  color: #26538f;
 }
 
 .bot-description {
@@ -45,6 +50,20 @@ p {
 
 .links {
   font-family: "Akronim", cursive;
+}
+
+.page-link, .staff-member-link {
+  color: #193f77;
+}
+
+.staff-member-name {
+  text-align: center;
+  font-family: "Bakbak One", cursive;
+}
+
+.staff-member-description {
+  text-align: center;
+  color: #1a55ad;
 }
 
 /* This is the stylesheet */
